@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "andbroz.github.io",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Andrzej Web Page",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Andrzej Brodowicz",
+  "homepage": "https://andbroz.github.io",
   "dependencies": {
     "gatsby": "^3.4.1",
     "gatsby-plugin-gatsby-cloud": "^2.4.1",
@@ -39,9 +40,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/andbroz/andbroz.github.io"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/andbroz/andbroz.github.io/issues"
   }
 }
