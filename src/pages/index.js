@@ -14,7 +14,7 @@ const IndexPage = () => (
       Nothing to see here yet. Just started to build my Web Page with Gatsby.
     </p>
     <StaticImage
-      src="../images/begin.jpg"
+      src="../images/gatsby-astronaut.png"
       width={300}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
