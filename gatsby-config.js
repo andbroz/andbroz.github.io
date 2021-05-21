@@ -5,6 +5,7 @@ module.exports = {
     author: `@andbroz`,
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -19,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `andbroz-home-page`,
+        short_name: `andbroz`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
