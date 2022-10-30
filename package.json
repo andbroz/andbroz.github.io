@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/roboto-flex": "^4.5.2",
+    "@fontsource/roboto-mono": "^4.5.8",
+    "@fontsource/roboto-serif": "^4.5.10",
+    "@fontsource/sriracha": "^4.5.9",
     "next": "13.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
