@@ -1,0 +1,7 @@
+{
+  "prettier.configPath": "prettier.config.js",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.useEditorConfig": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

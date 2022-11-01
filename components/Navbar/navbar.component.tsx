@@ -11,13 +11,15 @@ export default function Navbar() {
 
   return (
     <nav>
-      <ul className='flex flex-row list-none gap-5 text-lg font-sans font-semibold'>
+      <ul className='flex list-none flex-row gap-5 font-sans text-lg font-semibold'>
         {navLinks.map((navLink) => {
           return (
             <li
               key={navLink.title}
               className={`${
-                isActive(router, navLink.href) ? 'text-shockingYellow' : undefined
+                isActive(router, navLink.href)
+                  ? 'text-shockingYellow'
+                  : undefined
               } hover:underline`}
             >
               <Link href={navLink.href}>{navLink.title}</Link>

@@ -11,7 +11,9 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <>
       <div className={`${styles.container}  container mx-auto`}>
-        <header className={`${styles.header} shadow-md shadow-slate-500 rounded-b-xl mb-10`}>
+        <header
+          className={`${styles.header} mb-10 rounded-b-xl shadow-md shadow-slate-500`}
+        >
           <Header />
         </header>
         <main className={styles.content}>{children}</main>
