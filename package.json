@@ -35,9 +35,8 @@
     "typescript": "4.8.4"
   },
   "browserslist": [
-    "last 3 versions",
-    "not dead",
     "defaults",
+    "last 3 major versions and not dead",
     "maintained node versions"
   ]
 }
