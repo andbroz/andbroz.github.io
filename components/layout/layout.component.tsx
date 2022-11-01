@@ -19,6 +19,7 @@ export default function Layout({ children }: LayoutProps) {
         <main className={styles.content}>{children}</main>
         <footer className={`${styles.footer}`}>
           <Footer />
+          <p className='kupa'>kupa</p>
         </footer>
       </div>
     </>

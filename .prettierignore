@@ -40,14 +40,9 @@ next-env.d.ts
 
 .eslintrc.json
 .vscode
-next.config.js
 package.json
 package-lock.json
-prettier.config.js
 README.md
-tailwind.config.js
-tsconfig.json
-postcss.config.js
 
 
 #styles

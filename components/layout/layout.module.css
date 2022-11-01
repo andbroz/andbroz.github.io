@@ -18,4 +18,8 @@
   position: sticky;
   bottom: 0;
   flex-shrink: 0;
+
+  .kupa {
+    color: red;
+  }
 }
