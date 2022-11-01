@@ -6,8 +6,8 @@ module.exports = {
   content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
-      color: {
-        electricBlue: '#373e98',
+      colors: {
+        electricblue: '#373e98',
         hotPink: '#f16775',
         shockingYellow: '#fee36e',
         oldGold: '#ceb92c',

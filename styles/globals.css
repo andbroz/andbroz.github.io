@@ -2,12 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --darkestGray: #2a2a2a;
-  --primary: #ceb92c;
-}
-
-body {
-  background-color: var(--darkestGray);
-  color: var(--primary);
+@layer base {
+  body {
+    @apply bg-darkestGray;
+    @apply text-oldGold;
+    @apply font-sans;
+  }
 }

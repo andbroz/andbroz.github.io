@@ -10,12 +10,12 @@ export interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   return (
     <>
-      <div className={styles.container}>
-        <header className={`${styles.header} shadow-sm`}>
+      <div className={`${styles.container}  container mx-auto`}>
+        <header className={`${styles.header} shadow-md shadow-slate-500 rounded-b-xl mb-10`}>
           <Header />
         </header>
         <main className={styles.content}>{children}</main>
-        <footer className={`${styles.footer} border-t-[1px]`}>
+        <footer className={`${styles.footer}`}>
           <Footer />
         </footer>
       </div>
