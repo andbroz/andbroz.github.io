@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --darkestGray: #2a2a2a;
+  --primary: #ceb92c;
+}
+
+body {
+  background-color: var(--darkestGray);
+  color: var(--primary);
+}
