@@ -3,8 +3,8 @@
 // https://kulshekhar.github.io/ts-jest/docs/getting-started/paths-mapping/
 
 const nextJest = require('next/jest');
-// const { pathsToModuleNameMapper } = require('ts-jest');
-// const { compilerOptions } = require('./tsconfig.json');
+const { pathsToModuleNameMapper } = require('ts-jest');
+const { compilerOptions } = require('./tsconfig.json');
 
 // @ts-ignore
 const createJestConfig = nextJest({
@@ -18,6 +18,7 @@ const customJestConfig = {
   collectCoverage: false,
   coverageDirectory: 'coverage',
   coverageReporters: ['text-summary', 'html'],
+  testPathIgnorePatterns: ['<rootDir>/e2e'],
   collectCoverageFrom: [
     'components/**/*.{ts,tsx}',
     'pages/**/*.{ts,tsx}',
@@ -27,10 +28,12 @@ const customJestConfig = {
     '!**/dist/**',
     '!**/coverage/**',
     '!**/public/**',
+    '!**/e2e/**',
+    '!**/__mocks__/**',
   ],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   moduleDirectories: ['node_modules', '<rootDir>/'],
-  // moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths),
+  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths),
   testEnvironment: 'jest-environment-jsdom',
 };
 

@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { useRouter } from 'next/router';
-import Navbar from './navbar.component';
+import Navbar from '@components/navbar-new/navbar.component';
 
 jest.mock('next/router', () => ({
   __esModule: true,
