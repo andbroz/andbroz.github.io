@@ -15,6 +15,19 @@ const createJestConfig = nextJest({
 // Add any custom config to be passed to Jest
 /** @type {import('ts-jest').JestConfigWithTsJest} */
 const customJestConfig = {
+  collectCoverage: false,
+  coverageDirectory: 'coverage',
+  coverageReporters: ['text-summary', 'html'],
+  collectCoverageFrom: [
+    'components/**/*.{ts,tsx}',
+    'pages/**/*.{ts,tsx}',
+    '!**/node_modules/**',
+    '!**/vendor/**',
+    '!**/build/**',
+    '!**/dist/**',
+    '!**/coverage/**',
+    '!**/public/**',
+  ],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   moduleDirectories: ['node_modules', '<rootDir>/'],
   moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths),
