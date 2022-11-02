@@ -1,4 +1,4 @@
-import Navbar from '../Navbar/navbar.component';
+import Navbar from '@components/navbar/navbar.component';
 
 export default function Header() {
   return (
