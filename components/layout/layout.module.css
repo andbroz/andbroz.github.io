@@ -3,6 +3,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  @apply px-4;
+  @apply bg-gradient-to-b from-electricblue to-darkestGray;
 }
 
 .content {
