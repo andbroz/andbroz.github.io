@@ -1,3 +1,4 @@
+@import "transition-style";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,5 +8,6 @@
     @apply bg-darkestGray;
     @apply text-oldGold;
     @apply font-sans;
+    @apply container mx-auto;
   }
 }

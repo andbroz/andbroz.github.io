@@ -20,7 +20,7 @@ export default function Navbar() {
                 isActive(router, navLink.href)
                   ? 'text-shockingYellow'
                   : undefined
-              } hover:underline`}
+              } hover:text-hotPink hover:underline`}
             >
               <Link href={navLink.href}>{navLink.title}</Link>
             </li>
