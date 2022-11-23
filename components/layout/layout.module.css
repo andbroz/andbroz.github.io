@@ -1,23 +1,4 @@
 .container {
   position: relative;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  @apply px-4;
-  @apply bg-gradient-to-b from-electricblue to-darkestGray;
-}
-
-.content {
-  flex: 1 0 auto;
-}
-
-.header {
-  position: sticky;
-  top: 0;
-}
-
-.footer {
-  position: sticky;
-  bottom: 0;
-  flex-shrink: 0;
 }
