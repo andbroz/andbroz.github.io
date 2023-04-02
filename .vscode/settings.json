@@ -9,5 +9,9 @@
   "jest.rootPath":"./",
   "jest.testExplorer": {
     "enabled": true
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "[css]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   }
 }
