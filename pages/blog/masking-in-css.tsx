@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import style from './masking-in-css.module.css';
 
-export default function Home() {
+export default function MaskingInCss() {
   return (
     <>
       <Head>

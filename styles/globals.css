@@ -11,3 +11,10 @@
     @apply container mx-auto;
   }
 }
+
+@layer custom {
+  section {
+    margin-block: 2rem;
+    padding-block: 5rem;
+  }
+}

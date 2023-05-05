@@ -1,0 +1,33 @@
+.siteTitle {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 70vw;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+}
+
+.diagonal {
+  --skew-angle: -5deg;
+  --background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+  color: black;
+  position: relative;
+  isolation: isolate;
+}
+
+.diagonal::after {
+  content: '';
+  position: absolute;
+  background: var(--background);
+  inset: 0;
+  transform: skewY(var(--skew-angle));
+  z-index: -1;
+}
