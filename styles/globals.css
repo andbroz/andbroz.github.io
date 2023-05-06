@@ -4,6 +4,11 @@
 @tailwind utilities;
 
 @layer base {
+
+  :root {
+  --body-bg: hsl(0, 0%, 12%);
+}
+
   body {
     @apply bg-darkestGray;
     @apply text-oldGold;
