@@ -4,10 +4,22 @@
 @tailwind utilities;
 
 @layer base {
+
+  :root {
+  --body-bg: hsl(0, 0%, 12%);
+}
+
   body {
     @apply bg-darkestGray;
     @apply text-oldGold;
     @apply font-sans;
     @apply container mx-auto;
+  }
+}
+
+@layer custom {
+  section {
+    margin-block: 2rem;
+    padding-block: 5rem;
   }
 }
